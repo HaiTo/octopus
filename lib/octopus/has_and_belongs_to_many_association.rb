@@ -6,4 +6,4 @@ module Octopus
   end
 end
 
-ActiveRecord::Associations::HasAndBelongsToManyAssociation.send(:include, Octopus::HasAndBelongsToManyAssociation)
+ActiveRecord::Associations::HasManyAssociation.send(:include, Octopus::HasAndBelongsToManyAssociation)
